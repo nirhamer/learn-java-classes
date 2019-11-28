@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: To compile a class with private fields, the class must contain at least one
+    getter.
+- text: Setter is just a method getting a value of a field.
+- text: 'Getter is just a method setting a value of a field. '
+- text: Getters and setters are used to hide variables from the outside world.
+- text: Java doesn't have any special keywords for them.
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Main.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Solved
+record: -1
+custom_name: Quiz
